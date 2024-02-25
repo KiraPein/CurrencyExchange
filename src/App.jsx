@@ -43,7 +43,7 @@ function App() {
 
   // let cv=0.0;
   return (
-    <div className='full-window overflow-scroll flex items-center justify-center h-[100vh] bg-[#f0f2f5]'>
+    <div className='full-window overflow-hidden flex items-center justify-center h-[100vh] bg-[#f0f2f5]'>
       <div className='main-card flex lg:w-[60dvw] box-border bg-white p-[50px] flex-col  rounded-xl'>
         <div className='heading text-4xl font-bold mb-6'>Currency Converter
         </div>
@@ -75,7 +75,7 @@ function App() {
           </div>
 
         </div>
-        <div className='flex  justify-between  output_container text-xl bg-sky-100 border border-blue-200 p-4 md:max-w-[60%] rounded-xl text-xl '>
+        <div className='flex  justify-between  output_container text-xl bg-sky-100 border border-blue-200 p-4 md:max-w-[60%] rounded-xl '>
           <span>Converted Amount : </span>
           <span className='font-bold'>{cv}</span>
         </div>
